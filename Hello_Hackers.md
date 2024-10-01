@@ -7,6 +7,8 @@
     >**Challenge 1**
 - We had to execute commands(hello) in the terminal.
      ```bash
+  jenna@LAPTOP-RORNR46D:~$ ssh -i ./key hacker@dojo.pwn.college
+  Connected!
   hacker@hello~intro-to-commands:~$ hello
   Success! Here is your flag:
   pwn.college{EXjyHlBMhI7oWS_cDYVOUWb57KS.ddjNyUDL0gTN0czW}
@@ -20,6 +22,8 @@
 - Had to invoke a command(hello) with the given arguments(hackers).
 - First invoke the command and then the argument.
     ```bash
+    jenna@LAPTOP-RORNR46D:~$ ssh -i ./key hacker@dojo.pwn.college
+    Connected!
     hacker@hello~intro-to-commands:~$ hello hackers
     Success! Here is your flag:
     pwn.college{EXjyHlBMhI7oWS_cDYVOUWb57KS.ddjNyUDL0gTN0czW}
