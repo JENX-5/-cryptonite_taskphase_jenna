@@ -3,6 +3,8 @@
 
 ## Challenge 1: The Root
 ```bash
+jenna@LAPTOP-RORNR46D:~$ ssh -i ./key hacker@dojo.pwn.college
+Connected!
 hacker@paths~the-root:~$ /pwn
 BOOM!!!
 Here is your flag:
