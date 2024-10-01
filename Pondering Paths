@@ -1,0 +1,21 @@
+```bash
+hacker@paths~the-root:~$ /pwn
+BOOM!!!
+Here is your flag:
+pwn.college{kt4DU_GgFP3qRTWFzpItFbdI_a0.dhzN5QDL0gTN0czW}
+```
+
+```bash
+hacker@paths~program-and-absolute-paths:~$ /challenge/run
+Correct!!!
+/challenge/run is an absolute path! Here is your flag:
+pwn.college{YC_GSfQ8D42xAvCMEUR7r7kUz4M.dVDN1QDL0gTN0czW}
+```
+```bash
+hacker@paths~position-thy-self:/$ cd /sys
+hacker@paths~position-thy-self:/sys$ /challenge/run
+Correct!!!
+/challenge/run is an absolute path, invoked from the right directory!
+Here is your flag:
+pwn.college{Iukf5oLRcCR6ZqVuQqQdb4O1Uw9.dZDN1QDL0gTN0czW}
+```
