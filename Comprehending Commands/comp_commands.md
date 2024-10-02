@@ -1,6 +1,6 @@
 # Comprehending Commands
 
-## Challenge 1: cat
+## Challenge 1: cat: not pet but the command
 ```bash
 hacker@commands~cat-not-the-pet-but-the-command:~$ cat flag
 pwn.college{0A_7Aid3AvGsMqe4fbzsx2Vt0_j.dFzN1QDL0gTN0czW}
@@ -31,6 +31,8 @@ pwn.college{8_bwSJvoISl5BAaukCyBjRja6e3.dBjM5QDL0gTN0czW}
 hacker@commands~grepping-for-a-needle-in-a-haystack:~$ grep pwn.college /challenge/data.txt
 pwn.college{MBZAaEusZT4VJ--lhV3E3MHcBmi.ddTM4QDL0gTN0czW}
 ```
+- When the file content is too large, we can use grep to find text in file which have/start with the given argument
+  
 ## Challenge 5: Listing Files
 ```bash
 hacker@commands~listing-files:~$ ls /challenge
@@ -39,6 +41,7 @@ hacker@commands~listing-files:~$ /challenge/27802-renamed-run-6901
 Yahaha, you found me! Here is your flag:
 pwn.college{IMPE55WpRRmSF0xk4nGcaLZzZmh.dhjM4QDL0gTN0czW}
 ```
+- To list all the files in the directories, use ls command
 
 ## Challenge 6: Touching Files
 ```bash
@@ -51,6 +54,8 @@ hacker@commands~touching-files:/tmp$ /challenge/run
 Success! Here is your flag:
 pwn.college{Y0YIgEuMWuBi-szzJwoUQS13wMX.dBzM4QDL0gTN0czW}
 ```
+- touch command is used to create a file.
+  
 ## Challenge 7: Removing Files
 ```bash
 hacker@commands~removing-files:~$ ls
@@ -62,6 +67,8 @@ hacker@commands~removing-files:~$ /challenge/check
 Excellent removal. Here is your reward:
 pwn.college{8hAijCG33_lFf41Z9hlaPkMm4pZ.dZTOwUDL0gTN0czW}
 ```
+- Just use 'rm' command to remove a file.
+  
 ## Challenge 8: Hidden Files
 ```bash
 hacker@commands~hidden-files:~$ ls -a /
@@ -75,3 +82,6 @@ hacker@commands~hidden-files:~$ cat /.flag-146782335826902
 pwn.college{ktDm3goSkCtPdeRh0i5Nfn9y-xE.dBTN4QDL0gTN0czW}
 ```
 
+- Certain files can't be seen when we use ls. So ls -a shows all the files including .file_name
+
+#
