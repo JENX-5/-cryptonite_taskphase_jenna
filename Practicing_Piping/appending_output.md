@@ -1,5 +1,5 @@
 # Appending Output
-### Challenge 3
+## Challenge 3
 - To append the output to a file use >> and not >.
 - \> overwrites the output while >> appends it.
 
