@@ -1,4 +1,4 @@
-# LEVEL 2
+# LEVEL 1
 # DESCRIPTION
 The password for the next level is stored in a file called - located in the home directory
 # Writeup
